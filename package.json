@@ -1,7 +1,10 @@
 {
-  "name"     : "spread",
-  "version"  : "0.0.1",
-  "keywords" : ["spread"],
-  "author"   : "iwater <iwater@gmail.com>",
+  "name"       : "spread",
+  "version"    : "0.0.1",
+  "keywords"   : ["spread"],
+  "author"     : "iwater <iwater@gmail.com>",
+  "repository" : 
+   { "type" : "git",
+     "url"  : "git@github.com:iwater/node-spread-native.git" },
   "engines"  : { "node": ">=0.4.0" }
 }
