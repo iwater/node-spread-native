@@ -1,0 +1,7 @@
+{
+  "name"     : "spread",
+  "version"  : "0.0.1",
+  "keywords" : ["spread"],
+  "author"   : "iwater <iwater@gmail.com>",
+  "engines"  : { "node": ">=0.4.0" }
+}

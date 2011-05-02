@@ -1,0 +1,11 @@
+var spread = require('spread');
+
+var sp = spread.createConnection('username', 4803, 'localhost');
+
+sp.on('message', function(channel, message){
+  console.log(message);
+});
+
+sp.on('logined', function(){
+  sp.join('TEST');
+});
