@@ -1,6 +1,6 @@
 var net = require('net');
 var events = require('events');
-var sys = require('sys');
+var util = require('util');
 
 exports.createConnection = function(name, Port, Host, DefaultChannel/*, logger*/){
 
